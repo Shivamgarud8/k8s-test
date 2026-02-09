@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-dep  
+spec:
+  replicas: 4   
+  selector:
+    matchLabels:
+      app: test-dep
+  template:
+    metadata:
+      labels:
+        app: test-dep
+    spec:
+      containers:
+      - name: test-dep
+        image: shiya18072011/mail
+        ports:
+        - containerPort: 5000
