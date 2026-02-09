@@ -186,7 +186,7 @@ Perform the following steps:
 
 - Create a Deployment that runs the application with at least 2 pods.
 ![img](img/pod1.png)
-![img](img/po.png)
+![img](img/pod.png)
 - Ensure all pods are created successfully and are in Running state.
 ![img](img/podall.png)
 - Create a NodePort Service to expose the application.
