@@ -193,7 +193,7 @@ Perform the following steps:
 ![img](img/svc.png)
 ![img](img/all.png)
 - Access the application from a browser using:
-![img](img/0.png)
+![img](img/o.png)
 
 
 - Verify that the application output is visible in the browser.
