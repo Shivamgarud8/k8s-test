@@ -185,8 +185,33 @@ You are given an application image that runs a web server.
 Perform the following steps:
 
 - Create a Deployment that runs the application with at least 2 pods.
-
+![img](img/pod1.png)
+![img](img/po.png)
 - Ensure all pods are created successfully and are in Running state.
+![img](img/podall.png)
 - Create a NodePort Service to expose the application.
+![img](img/svc.png)
+![img](img/all.png)
 - Access the application from a browser using:
+![img](img/0.png)
 
+
+- Verify that the application output is visible in the browser.
+- Take a screenshot of the browser output.
+
+---
+
+## README.md File Requirements
+
+Create a `README.md` file and add:
+
+- Deployment name  
+- K8s task  
+- Service type used  
+- URL used to access the application  
+- Screenshot of the browser output  
+
+---
+
+Push the **K8s task README.md** file to a Git repository and submit the repository link.
+![img](img/last.png)
